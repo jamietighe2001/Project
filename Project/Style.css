@@ -1,0 +1,140 @@
+nav {
+    background-color: grey;
+    padding:5px;
+    border: 1px solid green;
+    border-radius: 5px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li:hover { background-color : #cb92f1}
+
+nav ul {
+    text-align :center;
+    font-size :1.2em;
+}
+#active {
+    background-color: darkseagreen;
+}
+
+.logo {
+    float: left; height:60px; width:60px;
+}
+header {
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    color:navajowhite;
+    border:1px solid blue;
+}
+#bigPic {
+    width: 100%;
+}
+.showImages {
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin: 0 10px 0 10px;
+}
+section.manager {
+    max-height: 350px;
+    overflow: auto;
+}
+.col_detail {
+    column-count: 3;
+    column-rule: 2px solid rgb(199, 32, 32);
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
+}
+footer ul li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding:15px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+aside {
+    border: 1px solid yellow;
+    float: right;
+    width: 10%;
+}
+#Maincontent {
+    float: left;
+    width: 80%;
+    border: 1px solid rgb(20, 243, 13);
+
+}
+aside ul li {
+    list-style-type: none;
+
+}
+aside ul li a {
+    color: #009dff;
+    text-decoration: none;
+}
+body{
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    padding: 2px;
+}
+.course {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+.videocontent {
+    float: right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+.backgroundImageB{
+    background-image: url(../images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+} 
+.backgroundImageC{
+    background-image: url(../images/carrot.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+main a{
+    color: #fc8787;
+    text-decoration: none;
+}
